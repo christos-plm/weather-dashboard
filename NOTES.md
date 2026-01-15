@@ -151,3 +151,55 @@ response = requests.get(url, timeout=10)
 - Interactive dashboards
 - Custom comfort score metric
 - Multi-panel layouts
+
+---
+
+## Flask Web Development
+
+### What is Flask
+- Python web framework
+- Makes building web apps easy
+- Routes map URLs to Python functions
+- Returns HTML to the browser
+
+### Key Concepts
+
+**Routes**
+```python
+@app.route('/path')
+def function_name():
+    return "HTML content"
+
+**Running the server**
+'''python
+app.run(debug=True, port=5000)
+
+### Dynamic content  
+- Load data from database  
+- Generate HTML with Python  
+- Insert data into pages  
+
+### Embedding visualizations  
+- Plotly’s to_html() method  
+- Include charts in web pages  
+- Interactive in the browser  
+
+### What I Built  
+- Complete web application  
+- Multiple pages with navigation  
+- Data table display  
+- Embedded visualizations  
+- API endpoint  
+- Responsive styling  
+
+### Web Development Basics  
+- HTML structure  
+- CSS styling  
+- Navigation menu  
+- Page layout  
+
+### Next Steps  
+- Add templates (cleaner HTML)  
+- Add more features  
+- Deploy online  
+
