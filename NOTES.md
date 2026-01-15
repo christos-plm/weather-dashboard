@@ -1,4 +1,4 @@
-# Week 4 - Day 1: APIs and Data Fetching
+# APIs and Data Fetching
 
 ### APIs
 - **API**: Application Programming Interface - a way for programs to talk to each other
@@ -41,9 +41,9 @@ response = requests.get(url, timeout=10)
 
 ---
 
-# Week 4 - Day 2: Data Transformation & ETL Pipeline
+# Data Transformation & ETL Pipeline
 
-### What is ETL?
+### What is ETL
 - **Extract**: Get data from source (API, database, file)
 - **Transform**: Clean, validate, enrich the data
 - **Load**: Save to destination (database, file, data warehouse)
@@ -80,12 +80,74 @@ response = requests.get(url, timeout=10)
 - Generate quality reports
 - Track statistics
 
-### What I Built
+### Built
 - Data validation functions
 - Data cleaning pipeline
 - Quality reporting system
 - Complete ETL pipeline
 - Batch processing capability
 
-## Key Takeaways
-(Write your own thoughts)
+---
+
+## Data Visualization
+
+### Why Visualize
+- Spot patterns instantly
+- Compare values easily  
+- Communicate insights
+- Find outliers
+- Tell data stories
+
+### Types of Charts
+
+**Bar Charts**
+- Compare categories
+- Show rankings
+- Good for: comparing cities, categories
+
+**Line Charts**
+- Show trends over time
+- Multiple lines = multiple series
+- Good for: temperature trends, time series
+
+**Scatter Plots**
+- Show relationships between 2 variables
+- Bubble size can show 3rd variable
+- Good for: humidity vs temp, correlations
+
+**Pie/Donut Charts**
+- Show parts of a whole
+- Good for: condition distribution, percentages
+
+**Heatmaps**
+- Show patterns in 2D data
+- Color intensity = values
+- Good for: time patterns, correlations
+
+**Box Plots**
+- Show distribution and outliers
+- Good for: comparing ranges across categories
+
+**Radar Charts**
+- Compare multiple metrics at once
+- Good for: multi-dimensional comparisons
+
+### Plotly Features
+- Interactive (hover, zoom, pan)
+- Opens in browser
+- Professional looking
+- Easy to customize
+- Can export as images
+
+### Best Practices
+- Choose the right chart type
+- Label axes clearly
+- Use appropriate colors
+- Keep it simple
+- Tell a story
+
+### Built
+- 10 different visualization types
+- Interactive dashboards
+- Custom comfort score metric
+- Multi-panel layouts
