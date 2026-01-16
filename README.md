@@ -62,34 +62,34 @@ This project demonstrates end-to-end data engineering and analysis skills:
 
 ## 📊 Architecture
 
-┌─────────────┐
-│   Weather   │
-│     API     │
-└──────┬──────┘
-│
-▼
-┌─────────────┐
-│     ETL     │
-│  Pipeline   │
-└──────┬──────┘
-│
-▼
-┌─────────────┐
-│   SQLite    │
-│  Database   │
-└──────┬──────┘
-│
-▼
-┌─────────────┐
-│   Pandas    │
-│  Analysis   │
-└──────┬──────┘
-│
-▼
-┌─────────────┐
-│    Flask    │
-│  Web App    │
-└─────────────┘
+┌─────────────┐  
+│   Weather   │  
+│     API     │  
+└──────┬──────┘  
+│  
+▼  
+┌─────────────┐  
+│     ETL     │  
+│  Pipeline   │  
+└──────┬──────┘  
+│  
+▼  
+┌─────────────┐  
+│   SQLite    │  
+│  Database   │  
+└──────┬──────┘  
+│  
+▼  
+┌─────────────┐  
+│   Pandas    │  
+│  Analysis   │  
+└──────┬──────┘  
+│  
+▼  
+┌─────────────┐  
+│    Flask    │  
+│  Web App    │  
+└─────────────┘  
 
 ## 🚀 Getting Started
 
@@ -97,41 +97,46 @@ This project demonstrates end-to-end data engineering and analysis skills:
 ```bash
 Python 3.9 or higher
 pip (Python package manager)
+```
 
 ### Installation  
 1. Clone the repository:  
 ```bash
 git clone https://github.com/christos-plm/weather-dashboard.git  
 cd weather-dashboard  
+```
 2. Install dependencies:  
 ```bash
 pip install flask pandas plotly requests  
+```
 3. Collect initial weather data:  
 ```bash
-python3 etl_pipeline.py  
+python3 etl_pipeline.py 
+``` 
 4. Run the web application:  
 ```bash
 python3 app.py  
+```
 5. Open your browser:  
 http://127.0.0.1:5000  
 
 ## 📖 Usage
 **Viewing the Dashboard**
-# Navigate to http://127.0.0.1:5000 to see:
+### Navigate to http://127.0.0.1:5000 to see:
 - Current weather for all tracked cities
 - Temperature trends
 - Statistics and analytics
-# Adding New Cities
+### Adding New Cities
 1. Go to “Manage Cities” page
 2. Enter city name and country
 3. Click “Add City & Fetch Data”
 4. Data is automatically collected and stored
-# Refreshing Data
+### Refreshing Data
 - Single city: Click refresh button next to the city
 - All cities: Click “Refresh All Cities” button
 - Automatic: Home page auto-refreshes every 5 minutes
-# Viewing Visualizations
-# Navigate to the “Visualizations” page for:
+### Viewing Visualizations
+### Navigate to the “Visualizations” page for:
 - Interactive temperature charts
 - Humidity analysis
 - Wind speed comparisons
