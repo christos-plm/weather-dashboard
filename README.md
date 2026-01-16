@@ -143,42 +143,42 @@ http://127.0.0.1:5000
 - Multi-metric dashboards
     
 ## 📁 Project Structure  
-weather-dashboard/
-├── app.py                    # Flask web application
-├── weather_collector.py      # API data collection
-├── data_transformer.py       # Data validation & cleaning
-├── etl_pipeline.py          # Complete ETL pipeline
-├── visualizer.py            # Plotly visualizations
-├── weather.db               # SQLite database
-├── README.md                # This file
-└── LEARNING_NOTES.md        # Development notes
+weather-dashboard/  
+├── app.py                    # Flask web application  
+├── weather_collector.py      # API data collection  
+├── data_transformer.py       # Data validation & cleaning  
+├── etl_pipeline.py          # Complete ETL pipeline  
+├── visualizer.py            # Plotly visualizations  
+├── weather.db               # SQLite database  
+├── README.md                # This file  
+└── LEARNING_NOTES.md        # Development notes  
 
-## 🔄 Data Pipeline Flow
-1. Extract: Fetch data from wttr.in API
-2. Transform:
-    ∙ Parse JSON response
-    ∙ Validate data ranges
-    ∙ Clean and standardize
-    ∙ Calculate derived fields
-    ∙ Check for duplicates
-3. Load: Save to SQLite database
-4. Analyze: Process with Pandas
-5. Visualize: Display with Plotly
-6. Present: Serve via Flask web app
+## 🔄 Data Pipeline Flow  
+1. Extract: Fetch data from wttr.in API  
+2. Transform:  
+    ∙ Parse JSON response  
+    ∙ Validate data ranges  
+    ∙ Clean and standardize  
+    ∙ Calculate derived fields  
+    ∙ Check for duplicates  
+3. Load: Save to SQLite database  
+4. Analyze: Process with Pandas  
+5. Visualize: Display with Plotly  
+6. Present: Serve via Flask web app  
     
-## 📈 Future Enhancements
-∙ Historical data analysis
-∙ Weather predictions
-∙ Email alerts for extreme weather
-∙ Mobile-responsive design
-∙ User authentication
-∙ Data export
-∙ More visualization types
-∙ API rate limiting
-∙ Caching layer
-∙ Deploy to cloud
+## 📈 Future Enhancements  
+∙ Historical data analysis  
+∙ Weather predictions  
+∙ Email alerts for extreme weather  
+∙ Mobile-responsive design  
+∙ User authentication  
+∙ Data export  
+∙ More visualization types  
+∙ API rate limiting  
+∙ Caching layer  
+∙ Deploy to cloud  
 
-## This project is open source and available for educational purposes.
+## This project is open source and available for educational purposes.  
 
-## 🙏 Acknowledgments
+## 🙏 Acknowledgments  
 Weather data provided by wttr.in
